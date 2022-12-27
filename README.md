@@ -43,3 +43,9 @@ Create new django-app using:
 ```
 docker exec -it django-app python manage.py migrate
 ```
+
+## Tailwind
+
+## References:
+
+* [React vs. Vue (Exact Todo App) By Example](https://medium.com/js-dojo/react-vs-vue-exact-todo-app-comparison-by-example-14cc56efc5e5)
