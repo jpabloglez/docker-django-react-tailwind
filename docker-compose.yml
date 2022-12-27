@@ -24,11 +24,11 @@ services:
     depends_on:
       - db-oftal      
     ports:
-      - 127.0.0.1:3080:3080
+      - 3080:3080
     volumes:
       - ./app/backend:/var/www/app/backend
       - shared:/var/www
-    # command: python app/manage.py runserver 0.0.0.0:3080
+    command: python backend/manage.py runserver 0.0.0.0:3080
     tty: true
     networks:
        - app-network
